@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Arial', Arial;
+    box-sizing: border-box;
+  }
+  
+  body{
+    display: flex;
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+    color: #fbf3f3;
+    border: 2px solid maroon;
+    padding: 20px;
+  }
+  .head{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    border-radius: 20px 20px 0 0;
+    margin-bottom: 60px;
+  }
+  .head h1{
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 20px;
+  }
+  .head img{
+    margin:30px 0 0 0;
+    width: 150px;
+    border: 5px solid #ad6bbc;
+    padding: 5px;
+    border-radius: 100%;
+    box-shadow: 0 15px 26.5px 0 rgba(0, 0, 0, 0.538);
+    transition: 0.5s ease;
+  }
+  .head a{
+    font-size: 30px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    margin: 30px 0;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+    transition: 0.5s ease;
+  }
+  img:hover, 
+  .head a:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease;
+    color: #38031e;
+  }
+  .container{
+    position: relative;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    backdrop-filter: blur(1.5px);
+  }
+  
+  p{
+    margin: 20px 0 50px 0;
+    letter-spacing: 1px;
+    text-align: justify;
+    text-indent: 50px;
+  }
+  
+  h2{
+    text-transform: uppercase;
+    border-radius: 10px;
+    padding-left: 10px;
+    background: linear-gradient(135deg, rgba(92, 34, 163, 0.71) 0%, rgba(202, 12, 38, 0.5) 85%);
+  }
+  .container .educational{
+    margin-bottom: 60px;
+  }
+  .container .educational table{
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .container .educational table,th,td{
+    border-collapse: collapse;
+    border: 2px solid #d8a5b7;
+    text-align: left;
+    padding: 8px;
+  }
+  th{
+    background: rgba(145, 61, 110, 0.5);
+  }
+  
+  .container .expertice{
+    position: relative;
+    width: 100%;
+    margin-bottom: 60px;
+  }
+  ul{
+    margin-top: 20px;
+    padding-left: 15px;
+  }
+  .container .it-background{
+    letter-spacing: 1px;
+    text-align: justify;
+    text-indent: 50px 0;
+  
+  }
+  .container .Applications{
+    width: 100%;
+  
+  }
+  .container .Applications ul{
+    list-style: decimal;
+    margin-top: 20px;
+    padding-left: 15px;
+  }
+
+  
+
